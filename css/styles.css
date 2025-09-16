@@ -3,3 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+h1 {
+    color: #f0f;
+    text-align: center;
+    margin: 20px 0;
+}
