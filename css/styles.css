@@ -202,14 +202,18 @@ img {
 
 /* 5. GALLERY */
 .gallery {
-    display: grid;
-    grid-template-columns: 1fr, 1fr;
-    grid-template-rows: 1fr, 1fr;
-    column-gap: 15px;
-    row-gap: 15px;
     align-items: center;
     background: #EAEAEA;
     text-align: center;
+    padding: 1rem;
+}
+.gallery-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 15px;
+    margin: auto;
 }
 
 .gallery-gird img {
