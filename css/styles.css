@@ -245,6 +245,11 @@ img {
     .card {
         flex: 1 1 calc(50% - 1rem);
     }
+
+    .gallery-gird {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
 }
 
 @media (min-width: 769px) {
