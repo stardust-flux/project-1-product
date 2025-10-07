@@ -203,20 +203,19 @@ img {
 /* 5. GALLERY */
 .gallery {
     display: grid;
-    padding: 2rem;
+    grid-template-columns: 1fr, 1fr;
+    grid-template-rows: 1fr, 1fr;
+    column-gap: 15px;
+    row-gap: 15px;
+    align-items: center;
     background: #EAEAEA;
     text-align: center;
 }
 
 .gallery-gird img {
     width: 100%;
-    grid-template-columns: 1fr, 1fr;
-    grid-gap: 1rem;
-    border-radius: 4px;
     max-width: 100%;
     height: auto;
-    border-radius: 4px;
-    transition: transform .3s ease;
 }
 
 /* 6. FOOTER */
