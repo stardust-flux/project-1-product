@@ -210,7 +210,7 @@ img {
 
 .gallery-gird img {
     width: 100%;
-    grid-template-columns: repeat(2fr, minmax(250px, 1fr));
+    grid-template-columns: 1fr, 1fr;
     grid-gap: 1rem;
     border-radius: 4px;
     max-width: 100%;
